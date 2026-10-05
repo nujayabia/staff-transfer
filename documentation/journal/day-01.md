@@ -51,7 +51,7 @@ sudo lvcreate -l 80%VG -n lv_transfer vg_transfer
 sudo mkfs.xfs /dev/vg_transfer/lv_transfer
 sudo mkdir -p /srv/transfer
 sudo mount /dev/vg_transfer/lv_transfer /srv/transfer
-![lsblk before adding disk](../images/day01-format_disk_mount.png)
+![lsblk before adding disk](../images/day-01-format_disk_mount.PNG)
 
 # permanent mount by UUID, then test it
 UUID=$(sudo blkid -s UUID -o value /dev/vg_transfer/lv_transfer)
