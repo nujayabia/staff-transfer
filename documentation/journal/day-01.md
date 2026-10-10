@@ -23,7 +23,7 @@ Understand the server baseline, set up the project repo, and prepare dedicated s
 - [x] Decided not to work as root; using user `sysadmin`
 - [x] Confirmed `sysadmin` is in groups `admins` and `wheel` (sudo works through `wheel`)
 - [x] Created project skeleton and git repo: `ansible/ portal/ scripts/ docs/ samples/ documentation/`
-- [x] Added `docs/` for journal and images, plus README
+- [x] Added `documentation/` for journal and images, plus README
 - [x] Added second disk `sdb` (50G) in VMware; needed a reboot before `lsblk` showed it
 
 ## Decisions and reasons
