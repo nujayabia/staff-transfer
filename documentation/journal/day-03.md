@@ -42,10 +42,10 @@ approved path instead.
 - Commit and push to the private GitHub repo `staff-transfer`.
 - At the office: `git pull`, `sha256sum -c SHA256SUMS`,
   `pip install --no-index --find-links=wheels -r requirements.txt`.
-  ![smb_user](../images/day-03-checksum.PNG)
+  ![smb_user](../images/day-03-checksum.png)
 - Result: openpyxl 3.1.5, et_xmlfile 2.0.0, PyYAML 6.0.3 installed with no
   internet access. All three checksums OK.
-![smb_user](../images/day-03-pyxlpyyaml.PNG)
+![smb_user](../images/day-03-pyxlpyyaml.png)
 
 
 ---
